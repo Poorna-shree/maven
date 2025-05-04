@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1\\a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/poornashree/",
+  "definitionName": "Poorna-shree.maven (5)",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/Poorna-shree/maven",
+      "sourcesDirectory": "1\\s\\maven"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "05/04/2025 22:47:08 +05:30",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1\\s",
+  "common_testresultsdirectory": "1\\TestResults",
+  "collectionId": "8f4b8be2-700f-424b-a6f9-195c70d3d9f5",
+  "definitionId": "5",
+  "hashKey": "186d5e1a38b0a98bfa0319939b49ca985d678c94",
+  "repositoryUrl": "https://github.com/Poorna-shree/maven",
+  "system": "build"
+}

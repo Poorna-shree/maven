@@ -1,0 +1,1432 @@
+[2025-05-04 17:08:47Z INFO Program] Version: 4.255.0
+[2025-05-04 17:08:47Z INFO Program] Commit: 470b366b07474086350f1b664c1cd1972e9e637e
+[2025-05-04 17:08:47Z INFO Program] Culture: en-US
+[2025-05-04 17:08:47Z INFO Program] UI Culture: en-US
+[2025-05-04 17:08:47Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:47Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:47Z INFO HostContext] Well known config file 'Proxy': 'F:\poornashree\agent\.proxy'
+[2025-05-04 17:08:47Z INFO VstsAgentWebProxy] No proxy setting found.
+[2025-05-04 17:08:47Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:47Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:47Z INFO HostContext] Well known config file 'Certificates': 'F:\poornashree\agent\.certificates'
+[2025-05-04 17:08:47Z INFO AgentCertificateManager] No certificate setting found.
+[2025-05-04 17:08:47Z INFO Worker] Waiting to receive the job message from the channel.
+[2025-05-04 17:08:47Z INFO Worker] Message received.
+[2025-05-04 17:08:48Z INFO Worker] Deactivating vso commands in job message variables.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-05-04 17:08:48Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2025-05-04 17:08:48Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "63e8042a-f367-5aec-692c-fcc654be55e4",
+      "name": "__system_1",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "script": "echo Hello, it's my Azure DevOps App"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b",
+      "name": "CmdLine1",
+      "displayName": "Run an echo command"
+    },
+    {
+      "inputs": {
+        "script": "mvn clean install"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "5caf77c8-9b10-50ef-b5c7-ca89c63e1c86",
+      "name": "CmdLine2",
+      "displayName": "Build with Maven"
+    },
+    {
+      "inputs": {
+        "script": "java -jar target/poornashree-0.0.1-SNAPSHOT.jar"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.250.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "bd05475d-acb5-5619-3ccb-c46842dbc997",
+      "name": "CmdLine3",
+      "displayName": "Run the poornashree JAR"
+    }
+  ],
+  "variables": {
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "8f4b8be2-700f-424b-a6f9-195c70d3d9f5",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/poornashree/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/poornashree/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/poornashree/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2025-05-04 17:08:43+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "devops",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "9e5d2ed2-02ed-498d-a250-d7555e00a620",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "5",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "Poorna-shree.maven (5)",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "Poorna-shree/maven",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "Poorna-shree/maven",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/Poorna-shree/maven",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CleanupPsModulesInPowershell": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadBuildArtifactsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UploadTimelineAttachmentsToBlob": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseInteropToFindParentProcess": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseSparseCheckoutInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.ModifyNumberOfRetriesInRobocopy": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.useJacocoTemplateV2forSingleModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.UseLatestOpensslVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_SPARSE_CHECKOUT_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_OPENSSL_LATEST_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "MODIFY_NUMBER_OF_RETRIES_IN_ROBOCOPY": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_USE_INTEROP_TO_FIND_PARENT_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_FIXED_AZ_CONFIG_INIT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_AKS_CREDENTIAL_API": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Update azure-pipelines-1.yml for Azure Pipelines",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "IndividualCI",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "System.CanIssueOidcTokenForWorkloadIdentityFederation": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_8f4b8be2-700f-424b-a6f9-195c70d3d9f5_build_5_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_8f4b8be2-700f-424b-a6f9-195c70d3d9f5_build_5_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/60",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20250504.24",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "18455450",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "Poorna-shree.maven (5)",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "6d34ae55-9472-4376-8815-470f24a281db",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "6d34ae55-9472-4376-8815-470f24a281db",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "96ac2280-8cb4-5df5-99de-dd2da759617d",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "build.stageRequestedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.stageRequestedBy": {
+      "value": "Microsoft.VisualStudio.Services.TFS",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "3a3a2a60-14c7-570b-14a4-fa42ad92f52a",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Job.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "Job",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadBuildArtifactsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.UploadTimelineAttachmentsToBlob": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "10000",
+      "isReadOnly": true
+    },
+    "system.preferRedirectGetContainerItem": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/poornashree/9e5d2ed2-02ed-498d-a250-d7555e00a620/_apis/distributedtask/hubs/build/plans/6d34ae55-9472-4376-8815-470f24a281db/jobs/12f1170f-54f2-53f3-20dd-22fc7dff55f9/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "9e5d2ed2-02ed-498d-a250-d7555e00a620",
+    "planType": "Build",
+    "version": 18,
+    "planId": "6d34ae55-9472-4376-8815-470f24a281db",
+    "planGroup": "Build:9e5d2ed2-02ed-498d-a250-d7555e00a620:60",
+    "artifactUri": "vstfs:///Build/Build/60",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/poornashree/9e5d2ed2-02ed-498d-a250-d7555e00a620/_build/definition?definitionId=5"
+        },
+        "self": {
+          "href": "https://dev.azure.com/poornashree/9e5d2ed2-02ed-498d-a250-d7555e00a620/_apis/build/Definitions/5"
+        }
+      },
+      "id": 5,
+      "name": "Poorna-shree.maven (5)"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/poornashree/9e5d2ed2-02ed-498d-a250-d7555e00a620/_build/results?buildId=60"
+        },
+        "self": {
+          "href": "https://dev.azure.com/poornashree/9e5d2ed2-02ed-498d-a250-d7555e00a620/_apis/build/Builds/60"
+        }
+      },
+      "id": 60,
+      "name": "20250504.24"
+    }
+  },
+  "timeline": {
+    "id": "6d34ae55-9472-4376-8815-470f24a281db",
+    "changeId": 5,
+    "location": null
+  },
+  "jobId": "12f1170f-54f2-53f3-20dd-22fc7dff55f9",
+  "jobDisplayName": "Job",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/154966198?v=4"
+        },
+        "id": "e61baab7-1c68-44ea-86e7-b01ad9a95afd",
+        "name": "Poorna-shree",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "Poornashree .",
+          "url": "https://spsprodcin1.vssps.visualstudio.com/A356b1c12-8838-4d10-b188-30278b3faf95/_apis/Identities/16e706b1-eaa7-63fd-b24c-89e66eb0ef98",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/poornashree/_apis/GraphProfile/MemberAvatars/msa.MTZlNzA2YjEtZWFhNy03M2ZkLWIyNGMtODllNjZlYjBlZjk4"
+            }
+          },
+          "id": "16e706b1-eaa7-63fd-b24c-89e66eb0ef98",
+          "uniqueName": "poorna2130@gmail.com",
+          "imageUrl": "https://dev.azure.com/poornashree/_apis/GraphProfile/MemberAvatars/msa.MTZlNzA2YjEtZWFhNy03M2ZkLWIyNGMtODllNjZlYjBlZjk4",
+          "descriptor": "msa.MTZlNzA2YjEtZWFhNy03M2ZkLWIyNGMtODllNjZlYjBlZjk4"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "65493996",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "8f4b8be2-700f-424b-a6f9-195c70d3d9f5",
+          "ServerName": "poornashree"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/poornashree/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "Poorna-shree/maven",
+          "type": "GitHub",
+          "version": "6dfcc3a8c35ec942af1182cff916a1fc613973a8",
+          "name": "Poorna-shree/maven",
+          "ref": "refs/heads/master",
+          "defaultBranch": "refs/heads/master",
+          "externalId": "***",
+          "project": "9e5d2ed2-02ed-498d-a250-d7555e00a620",
+          "url": "https://github.com:443/Poorna-shree/maven",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          },
+          "system.istriggeringrepository": true
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "e61baab7-1c68-44ea-86e7-b01ad9a95afd"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2025-05-04 17:08:48Z INFO JobRunner] Job ID 12f1170f-54f2-53f3-20dd-22fc7dff55f9
+[2025-05-04 17:08:48Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/poornashree/
+[2025-05-04 17:08:48Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-04 17:08:48Z INFO Worker] Listening for cancel message from the channel.
+[2025-05-04 17:08:48Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2025-05-04 17:08:49Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-04 17:08:49Z INFO JobServerQueue] Start process web console line queue.
+[2025-05-04 17:08:49Z INFO JobServerQueue] Start process file upload queue.
+[2025-05-04 17:08:49Z INFO JobServerQueue] Start process timeline update queue.
+[2025-05-04 17:08:49Z INFO ConfigurationStore] currentAssemblyLocation: F:\poornashree\agent\bin\Agent.Worker.dll
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] binPath: F:\poornashree\agent\bin
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] RootFolder: F:\poornashree\agent
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'Agent': 'F:\poornashree\agent\.agent'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] ConfigFilePath: F:\poornashree\agent\.agent
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'Credentials': 'F:\poornashree\agent\.credentials'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] CredFilePath: F:\poornashree\agent\.credentials
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'Service': 'F:\poornashree\agent\.service'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] ServiceConfigFilePath: F:\poornashree\agent\.service
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'Autologon': 'F:\poornashree\agent\.autologon'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] AutoLogonSettingsFilePath: F:\poornashree\agent\.autologon
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'Options': 'F:\poornashree\agent\.options'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] RuntimeOptionsFilePath: F:\poornashree\agent\.options
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known config file 'SetupInfo': 'F:\poornashree\agent\.setup_info'
+[2025-05-04 17:08:49Z INFO ConfigurationStore] SetupInfoFilePath: F:\poornashree\agent\.setup_info
+[2025-05-04 17:08:49Z INFO ConfigurationStore] Read setting file: 173 chars
+[2025-05-04 17:08:49Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:49Z INFO ExecutionContext] WorkspaceIdentifier '186d5e1a38b0a98bfa0319939b49ca985d678c94' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2025-05-04 17:08:49Z INFO HostContext] Removing short secrets from masking dictionary
+[2025-05-04 17:08:49Z INFO JobRunner] Starting the job execution context.
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO JobRunner] Validating directory permissions for: 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Externals': 'F:\poornashree\agent\externals'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'ServerOM': 'F:\poornashree\agent\externals\vstsom'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Tools': 'F:\poornashree\agent\_work\_tool'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:49Z INFO HostContext] Well known directory 'Temp': 'F:\poornashree\agent\_work\_temp'
+[2025-05-04 17:08:49Z INFO JobRunner] Creating task server with https://dev.azure.com/poornashree/
+[2025-05-04 17:08:49Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-04 17:08:50Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-04 17:08:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-05-04 17:08:50Z INFO JobRunner] Getting job extension.
+[2025-05-04 17:08:50Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2025-05-04 17:08:50Z INFO JobRunner] Initialize job. Getting all job steps.
+[2025-05-04 17:08:50Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Image version for job id 12f1170f-54f2-53f3-20dd-22fc7dff55f9 is not set
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2025-05-04 17:08:50Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO BuildDirectoryManager] Checking if artifacts directory exists: 'F:\poornashree\agent\_work\1\a'
+[2025-05-04 17:08:50Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO BuildDirectoryManager] Checking if test results directory exists: 'F:\poornashree\agent\_work\1\TestResults'
+[2025-05-04 17:08:50Z INFO BuildDirectoryManager] Creating test results directory.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO BuildDirectoryManager] Set repository path for repository self to 'F:\poornashree\agent\_work\1\s'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Checking repository name self
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Downloading task definitions.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known config file 'TaskExceptionList': 'F:\poornashree\agent\bin\tasks-exception-list.json'
+[2025-05-04 17:08:50Z INFO TaskManager] Skip download checkout task.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:50Z INFO TaskManager] Ensuring task exists: ID 'd9bafed4-0b18-4f58-968d-86655b4d2ce9', version '2.250.1', name 'CmdLine', directory 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1'.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Downloading Node 6 runner.
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:50Z INFO HostContext] Well known directory 'Externals': 'F:\poornashree\agent\externals'
+[2025-05-04 17:08:50Z INFO NodeJsUtil] Node 6 runner already exist.
+[2025-05-04 17:08:50Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f77b44c6-50fd-4ad2-9e5e-6b268d1b8793', success rate: 1/1.
+[2025-05-04 17:08:50Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2025-05-04 17:08:50Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-05-04 17:08:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f77b44c6-50fd-4ad2-9e5e-6b268d1b8793', success rate: 1/1.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:08:51Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:08:51Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:08:51Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:08:51Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2025-05-04 17:08:51Z INFO BuildJobExtension] Adding post-job step from extension.
+[2025-05-04 17:08:51Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:51Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:51Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:51Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:51Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2025-05-04 17:08:51Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:08:51Z INFO BuildJobExtension] Total accessible running process: 213.
+[2025-05-04 17:08:51Z INFO JobRunner] Total job steps: 5.
+[2025-05-04 17:08:51Z INFO JobRunner] Run all job steps.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Start flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2025-05-04 17:08:51Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2025-05-04 17:08:51Z INFO StepsRunner] Processing step: DisplayName='Checkout Poorna-shree/maven@master to s', ContinueOnError=False, Enabled=True
+[2025-05-04 17:08:51Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-05-04 17:08:51Z INFO ExpressionManager] Result: True
+[2025-05-04 17:08:51Z INFO StepsRunner] Starting the step.
+[2025-05-04 17:08:51Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:08:51Z INFO TaskRunner] Get handler data for target platform Windows
+[2025-05-04 17:08:51Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-05-04 17:08:51Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area task
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area artifact
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area build
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area results
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area release
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2025-05-04 17:08:51Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'.
+[2025-05-04 17:08:51Z INFO AgentPluginManager] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main).
+[2025-05-04 17:08:51Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:51Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:08:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   File name: 'F:\poornashree\agent\bin\Agent.PluginHost.exe'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Working directory: 'F:\poornashree\agent\_work'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper] Process started with process id 9644, waiting for process exit.
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-05-04 17:08:52Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-05-04 17:08:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-05-04 17:08:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f77b44c6-50fd-4ad2-9e5e-6b268d1b8793', success rate: 1/1.
+[2025-05-04 17:08:52Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-04 17:08:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-04 17:08:53Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2025-05-04 17:08:53Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:53Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2025-05-04 17:08:54Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:54Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-04 17:08:54Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:56Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:58Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:08:58Z INFO HostContext] Setting up value for origin: TaskSetSecretCommand
+[2025-05-04 17:08:59Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:09:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:09:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:09:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:09:05Z INFO HostContext] Setting up value for origin: Variables_Set_repoUrlWithCred
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] Exited process 9644 with exit code 0
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] Finished process 9644 with exit code 0, and elapsed time 00:00:13.1318507.
+[2025-05-04 17:09:05Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-05-04 17:09:05Z INFO StepsRunner] Step result: 
+[2025-05-04 17:09:05Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-04 17:09:05Z INFO StepsRunner] Current state: job state = ''
+[2025-05-04 17:09:05Z INFO StepsRunner] Processing step: DisplayName='Run an echo command', ContinueOnError=False, Enabled=True
+[2025-05-04 17:09:05Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-05-04 17:09:05Z INFO ExpressionManager] Result: True
+[2025-05-04 17:09:05Z INFO StepsRunner] Starting the step.
+[2025-05-04 17:09:05Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:05Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:09:05Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:09:05Z INFO TaskRunner] Get handler data for target platform Windows
+[2025-05-04 17:09:05Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2025-05-04 17:09:05Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-05-04 17:09:05Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-05-04 17:09:05Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-05-04 17:09:05Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:05Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:05Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:05Z INFO TaskRunner] Build JobExtension resolved a rooted path:: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:05Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-05-04 17:09:05Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2025-05-04 17:09:05Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Generation: '1'
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Generation: '3'
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2025-05-04 17:09:05Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\cmdline.ps1'''))"'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Working directory: 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-04 17:09:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record '63e8042a-f367-5aec-692c-fcc654be55e4', success rate: 1/1.
+[2025-05-04 17:09:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b', success rate: 1/1.
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-05-04 17:09:05Z INFO ProcessInvokerWrapper] Process started with process id 12944, waiting for process exit.
+[2025-05-04 17:09:06Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-04 17:09:07Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] Exited process 12944 with exit code 0
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] Finished process 12944 with exit code 0, and elapsed time 00:00:07.3876471.
+[2025-05-04 17:09:12Z INFO StepsRunner] Step result: 
+[2025-05-04 17:09:12Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-04 17:09:12Z INFO StepsRunner] Current state: job state = ''
+[2025-05-04 17:09:12Z INFO StepsRunner] Processing step: DisplayName='Build with Maven', ContinueOnError=False, Enabled=True
+[2025-05-04 17:09:12Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-05-04 17:09:12Z INFO ExpressionManager] Result: True
+[2025-05-04 17:09:12Z INFO StepsRunner] Starting the step.
+[2025-05-04 17:09:12Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:12Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:09:12Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:09:12Z INFO TaskRunner] Get handler data for target platform Windows
+[2025-05-04 17:09:12Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2025-05-04 17:09:12Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-05-04 17:09:12Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-05-04 17:09:12Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-05-04 17:09:12Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:12Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:12Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:12Z INFO TaskRunner] Build JobExtension resolved a rooted path:: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:12Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-05-04 17:09:12Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2025-05-04 17:09:12Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Generation: '1'
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Generation: '3'
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2025-05-04 17:09:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\cmdline.ps1'''))"'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Working directory: 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-05-04 17:09:12Z INFO ProcessInvokerWrapper] Process started with process id 2312, waiting for process exit.
+[2025-05-04 17:09:14Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-04 17:09:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8ed7bd8-2a7f-56f6-9385-7fc29a8b5b7b', success rate: 1/1.
+[2025-05-04 17:09:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-05-04 17:09:28Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-05-04 17:09:38Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper] Exited process 2312 with exit code 0
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper] Finished process 2312 with exit code 0, and elapsed time 00:00:26.1460965.
+[2025-05-04 17:09:38Z INFO StepsRunner] Step result: 
+[2025-05-04 17:09:38Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-04 17:09:38Z INFO StepsRunner] Current state: job state = ''
+[2025-05-04 17:09:38Z INFO StepsRunner] Processing step: DisplayName='Run the poornashree JAR', ContinueOnError=False, Enabled=True
+[2025-05-04 17:09:38Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2025-05-04 17:09:38Z INFO ExpressionManager] Result: True
+[2025-05-04 17:09:38Z INFO StepsRunner] Starting the step.
+[2025-05-04 17:09:38Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.250.1 task: True
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:38Z INFO HostContext] Well known directory 'TaskZips': 'F:\poornashree\agent\_work\_taskzips'
+[2025-05-04 17:09:38Z INFO TaskManager] Loading task definition 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\task.json'.
+[2025-05-04 17:09:38Z INFO TaskRunner] Get handler data for target platform Windows
+[2025-05-04 17:09:38Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2025-05-04 17:09:38Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2025-05-04 17:09:38Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2025-05-04 17:09:38Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2025-05-04 17:09:38Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:38Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:38Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:38Z INFO TaskRunner] Build JobExtension resolved a rooted path:: F:\poornashree\agent\_work\1\s
+[2025-05-04 17:09:38Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-05-04 17:09:38Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2025-05-04 17:09:38Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Generation: '1'
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Generation: '3'
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.19041.1'
+[2025-05-04 17:09:38Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1\cmdline.ps1'''))"'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Working directory: 'F:\poornashree\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.250.1'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-04 17:09:38Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-04 17:09:39Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-05-04 17:09:39Z INFO ProcessInvokerWrapper] Process started with process id 12204, waiting for process exit.
+[2025-05-04 17:09:40Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] Exited process 12204 with exit code 0
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] Finished process 12204 with exit code 0, and elapsed time 00:00:07.2313793.
+[2025-05-04 17:09:46Z INFO StepsRunner] Step result: Failed
+[2025-05-04 17:09:46Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2025-05-04 17:09:46Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-04 17:09:46Z INFO StepsRunner] Processing step: DisplayName='Checkout Poorna-shree/maven@master to s', ContinueOnError=False, Enabled=True
+[2025-05-04 17:09:46Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2025-05-04 17:09:46Z INFO ExpressionManager] Result: True
+[2025-05-04 17:09:46Z INFO StepsRunner] Starting the step.
+[2025-05-04 17:09:46Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Tasks': 'F:\poornashree\agent\_work\_tasks'
+[2025-05-04 17:09:46Z INFO TaskRunner] Get handler data for target platform Windows
+[2025-05-04 17:09:46Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2025-05-04 17:09:46Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2025-05-04 17:09:46Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:46Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] Starting process:
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   File name: 'F:\poornashree\agent\bin\Agent.PluginHost.exe'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Working directory: 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2025-05-04 17:09:46Z INFO ProcessInvokerWrapper] Process started with process id 13808, waiting for process exit.
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2025-05-04 17:09:47Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] Exited process 13808 with exit code 0
+[2025-05-04 17:09:47Z INFO ProcessInvokerWrapper] Finished process 13808 with exit code 0, and elapsed time 00:00:01.4413013.
+[2025-05-04 17:09:47Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2025-05-04 17:09:47Z INFO StepsRunner] Step result: 
+[2025-05-04 17:09:47Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2025-05-04 17:09:47Z INFO StepsRunner] Current state: job state = 'Failed'
+[2025-05-04 17:09:47Z INFO JobRunner] Finalize job.
+[2025-05-04 17:09:47Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2025-05-04 17:09:47Z INFO HostContext] Well known directory 'Bin': 'F:\poornashree\agent\bin'
+[2025-05-04 17:09:47Z INFO HostContext] Well known directory 'Root': 'F:\poornashree\agent'
+[2025-05-04 17:09:47Z INFO HostContext] Well known directory 'Work': 'F:\poornashree\agent\_work'
+[2025-05-04 17:09:47Z INFO BuildJobExtension] Total accessible running process: 210.
+[2025-05-04 17:09:47Z INFO BuildJobExtension] Inspecting process environment variables. PID: 7620 (svchost)
+[2025-05-04 17:09:47Z WARN BuildJobExtension] Ignore exception during read process environment variables: Access is denied.
+[2025-05-04 17:09:47Z INFO JobRunner] Job result after all job steps finish: Failed
+[2025-05-04 17:09:47Z INFO JobRunner] Completing the job execution context.
+[2025-05-04 17:09:47Z INFO JobRunner] Shutting down the job server queue.
+[2025-05-04 17:09:47Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2025-05-04 17:09:48Z INFO JobServerQueue] All queue process task stopped.
+[2025-05-04 17:09:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record '5caf77c8-9b10-50ef-b5c7-ca89c63e1c86', success rate: 1/1.
+[2025-05-04 17:09:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bd05475d-acb5-5619-3ccb-c46842dbc997', success rate: 1/1.
+[2025-05-04 17:09:48Z INFO JobServerQueue] Try to append 1 batches web console lines for record '925e0a21-3297-4187-a586-1ebe6c546753', success rate: 1/1.
+[2025-05-04 17:09:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '6ae39a3e-839a-4746-8bcb-09bfae8298fb', success rate: 1/1.
+[2025-05-04 17:09:49Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12f1170f-54f2-53f3-20dd-22fc7dff55f9', success rate: 1/1.
+[2025-05-04 17:09:49Z INFO JobServerQueue] Web console line queue drained.
+[2025-05-04 17:09:49Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2025-05-04 17:09:52Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2025-05-04 17:09:52Z INFO JobServerQueue] File upload queue drained.
+[2025-05-04 17:09:53Z INFO JobServerQueue] Timeline update queue drained.
+[2025-05-04 17:09:53Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2025-05-04 17:09:53Z INFO TempDirectoryManager] Cleaning agent temp folder: F:\poornashree\agent\_work\_temp
+[2025-05-04 17:09:53Z INFO JobRunner] Raising job completed event.
+[2025-05-04 17:09:53Z INFO Worker] Job completed.

@@ -1,0 +1,8 @@
+﻿{
+  "agentId": 9,
+  "agentName": "ZED_AIR_CX3",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://dev.azure.com/poornashree/",
+  "workFolder": "_work"
+}

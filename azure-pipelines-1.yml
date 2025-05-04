@@ -2,21 +2,16 @@ trigger:
 - master
 
 pool:
-  name: Default  # Your self-hosted agent pool
+  name: Default  # self-hosted agent pool
 
 steps:
-- task: JavaToolInstaller@0
-  inputs:
-    versionSpec: '17'
-    jdkArchitectureOption: 'x64'     # ✅ Correct input name
-    jdkSourceOption: 'AzureStorage'  # ✅ Downloads from Microsoft-hosted source
-
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'Path'
-    jdkDirectory: '$(JAVA_HOME)'
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.17'
+    jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'clean install'

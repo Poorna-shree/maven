@@ -5,19 +5,22 @@ pool:
   name: Default  # Your self-hosted agent pool
 
 steps:
+# Use local Java 17 (already installed on your machine)
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'  # Since you're using a local JDK
+    jdkSourceOption: 'PreInstalled'
 
+# Run Gradle build using wrapper (assumes gradlew exists in the root)
 - task: Gradle@2
   inputs:
-    workingDirectory: ''
-    gradleWrapperFile: 'gradlew'
-    tasks: 'build'
+    workingDirectory: 'poorna'  # because your root project folder is 'poorna'
+    gradleWrapperFile: 'poorna/gradlew'
+    tasks: 'clean build'
     publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
+    testResultsFiles: '**/build/test-results/test/*.xml'
 
-- script: java -jar "$(Build.SourcesDirectory)\app\build\libs\app.jar"
+# Run the built JAR
+- script: java -jar "$(Build.SourcesDirectory)/poorna/app/build/libs/app.jar"
   displayName: 'Run the built JAR'

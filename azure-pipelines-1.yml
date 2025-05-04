@@ -8,8 +8,8 @@ steps:
 - task: JavaToolInstaller@0
   inputs:
     versionSpec: '17'
-    jdkArchitecture: 'x64'
-    jdkSourceOption: 'AzureStorage'  # Downloads JDK 17 automatically
+    jdkArchitectureOption: 'x64'     # ✅ Correct input name
+    jdkSourceOption: 'AzureStorage'  # ✅ Downloads from Microsoft-hosted source
 
 - task: Maven@3
   inputs:

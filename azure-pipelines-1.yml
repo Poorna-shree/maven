@@ -1,22 +1,15 @@
 trigger:
-- master  # Trigger on changes to the 'master' branch
+- master
 
 pool:
-  name: Default  # Use the default pool, which is usually an Ubuntu agent
-
+  name: Default
 
 steps:
-- task: JavaToolInstaller@0
-  inputs:
-    versionSpec: '17'  # Java 17 version
-    jdkArchitecture: 'x64'  # Architecture for the JDK
-
-- script: echo Hello
+- script: echo Hello, it's my Azure DevOps App
   displayName: 'Run an echo command'
 
 - script: mvn clean install
-  workingDirectory: $(Build.SourcesDirectory)  # Maven build using the sources directory
   displayName: 'Build with Maven'
 
-- script: java -jar $(Build.SourcesDirectory)/target/poornashree-0.0.1-SNAPSHOT.jar
-  displayName: 'Run the built JAR'
+- script: java -jar "target/poornashree-0.0.1-SNAPSHOT.jar"
+  displayName: 'Run the built poornashree JAR'

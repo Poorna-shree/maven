@@ -2,7 +2,9 @@ trigger:
 - master
 
 pool:
-  vmImage: 'default'  # This will let Azure DevOps automatically choose the default image
+  name: Default  # Use the Default agent pool, or replace with your custom pool name
+  demands:
+    - agent.name -equals YOUR_AGENT_NAME  # Replace with the name of your self-hosted agent
 
 steps:
 - task: Maven@3

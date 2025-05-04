@@ -9,7 +9,7 @@ steps:
   inputs:
     versionSpec: '17'
     jdkArchitecture: 'x64'
-    jdkSourceOption: 'PreInstalled'
+    jdkSourceOption: 'AzureStorage'  # Downloads JDK 17 automatically
 
 - task: Maven@3
   inputs:

@@ -1,0 +1,16 @@
+trigger:
+- master
+
+pool:
+  name: Default
+
+steps:
+- script: echo Hello
+  displayName: 'Run an echo command'
+
+- script: mvn clean install
+  workingDirectory: $(Build.SourcesDirectory)
+  displayName: 'Build with Maven'
+
+- script: java -jar $(Build.SourcesDirectory)/target/poornashree-0.0.1-SNAPSHOT.jar
+  displayName: 'Run the built JAR'

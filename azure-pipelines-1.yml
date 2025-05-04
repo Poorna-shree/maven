@@ -15,8 +15,8 @@ steps:
 # Run Gradle build using wrapper (assumes gradlew exists in the root)
 - task: Gradle@2
   inputs:
-    workingDirectory: 'poorna'  # because your root project folder is 'poorna'
-    gradleWrapperFile: 'poorna/gradlew'
+    workingDirectory: '$(Build.SourcesDirectory)/poorna'  # because your root project folder is 'poorna'
+    gradleWrapperFile: '$(Build.SourcesDirectory)/poorna/gradlew'
     tasks: 'clean build'
     publishJUnitResults: true
     testResultsFiles: '**/build/test-results/test/*.xml'

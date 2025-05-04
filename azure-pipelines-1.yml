@@ -1,26 +1,22 @@
 trigger:
-- master
+- master  # Trigger on changes to the 'master' branch
 
 pool:
-  name: Default  # Your self-hosted agent pool
+  name: Default  # Use the default pool, which is usually an Ubuntu agent
+
 
 steps:
-# Use local Java 17 (already installed on your machine)
 - task: JavaToolInstaller@0
   inputs:
-    versionSpec: '17'
-    jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'
+    versionSpec: '17'  # Java 17 version
+    jdkArchitecture: 'x64'  # Architecture for the JDK
 
-# Run Gradle build using wrapper (assumes gradlew exists in the root)
-- task: Gradle@2
-  inputs:
-    workingDirectory: '$(Build.SourcesDirectory)/poorna'  # because your root project folder is 'poorna'
-    gradleWrapperFile: '$(Build.SourcesDirectory)/poorna/gradlew'
-    tasks: 'clean build'
-    publishJUnitResults: true
-    testResultsFiles: '**/build/test-results/test/*.xml'
+- script: echo Hello
+  displayName: 'Run an echo command'
 
-# Run the built JAR
-- script: java -jar "$(Build.SourcesDirectory)/poorna/app/build/libs/app.jar"
+- script: mvn clean install
+  workingDirectory: $(Build.SourcesDirectory)  # Maven build using the sources directory
+  displayName: 'Build with Maven'
+
+- script: java -jar $(Build.SourcesDirectory)/target/poornashree-0.0.1-SNAPSHOT.jar
   displayName: 'Run the built JAR'

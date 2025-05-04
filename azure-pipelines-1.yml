@@ -2,19 +2,22 @@ trigger:
 - master
 
 pool:
-  name: Default  # self-hosted agent pool
+  name: Default  # Your self-hosted agent pool
 
 steps:
-- task: Maven@3
+- task: JavaToolInstaller@0
   inputs:
-    mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.17'
+    versionSpec: '17'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'clean install'
+    jdkSourceOption: 'PreInstalled'  # Since you're using a local JDK
 
-- script: java -jar "$(Build.SourcesDirectory)\target\poornashree-0.0.1-SNAPSHOT.jar"
+- task: Gradle@2
+  inputs:
+    workingDirectory: ''
+    gradleWrapperFile: 'gradlew'
+    tasks: 'build'
+    publishJUnitResults: true
+    testResultsFiles: '**/TEST-*.xml'
+
+- script: java -jar "$(Build.SourcesDirectory)\app\build\libs\app.jar"
   displayName: 'Run the built JAR'
